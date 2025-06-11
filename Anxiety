@@ -1,0 +1,4 @@
+Anxiety Dataset (Single-label classification):
+– CLIP + Sentence Transformer: Utilizes SBERT for textual features and CLIP for image representation. Classifier head is optimized for categorical output.
+– CLIP + MentalBERT: Leverages mental health–specific transformer embeddings to improve anxiety class separation.
+– CLIP + RoBERTa: Applies RoBERTa’s deep semantic encoding for the extracted meme text and fuses it with CLIP image embeddings
