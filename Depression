@@ -1,0 +1,4 @@
+– M3HModel: Abaseline multimodal model that uses OCR text, CLIP embeddings, and a lightweight classifier.
+– CLIP + Sentence Transformer: Uses Sentence-BERT for text encoding and CLIP for visual encoding. Embeddings are concatenated and passed through a linear classifier.
+– CLIP+MentalBERT:Text is encoded using MentalBERT, which captures mental health–specific textual cues more effectively. Combined with CLIP visual embeddings.
+– CLIP +RoBERTa: RoBERTa serves as a robust general-purpose encoder, fused with CLIP visual features
